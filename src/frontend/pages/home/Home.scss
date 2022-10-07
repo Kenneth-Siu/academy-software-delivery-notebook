@@ -1,0 +1,42 @@
+@import "../../components/colors.scss";
+
+.home-page {
+    padding-top: 1rem;
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            color: $color-1;
+            width: 20rem;
+            height: 20rem;
+            flex-grow: 0;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: solid $color-1 1px;
+            border-radius: 2rem;
+            margin: 0.8rem;
+
+            .emoji {
+                font-size: 8rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .text {
+                font-size: 2rem;
+            }
+        }
+    }
+}
