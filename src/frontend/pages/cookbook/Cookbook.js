@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { getRecipes } from "../../api/recipeApi";
 import "./Cookbook.scss";
 
 export default function Cookbook() {
     const [recipes, setRecipes] = useState(null);
 
     useEffect(async () => {
-        const recipes = await getRecipes();
-        setRecipes(recipes);
+        setRecipes(await getRecipes());
     }, []);
 
     return (
@@ -27,8 +27,4 @@ export default function Cookbook() {
             )}
         </main>
     );
-
-    async function getRecipes() {
-        return (await fetch("/api/recipes")).json();
-    }
 }
