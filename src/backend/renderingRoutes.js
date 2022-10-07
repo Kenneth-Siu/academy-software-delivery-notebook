@@ -2,7 +2,7 @@ import React from "react";
 import { Router } from "express";
 import { StaticRouter } from "react-router-dom";
 import { renderToString } from "react-dom/server";
-import App from "../../frontend/pages/App";
+import App from "../frontend/pages/App";
 
 const router = Router();
 
@@ -39,7 +39,7 @@ function jsScriptTagsFromAssets(assets, entrypoint, ...extra) {
             : ""
         : "";
 }
-console.log(process.env.RAZZLE_ASSETS_MANIFEST);
+
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
 function renderApp(req, res) {

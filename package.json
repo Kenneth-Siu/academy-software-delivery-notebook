@@ -3,6 +3,7 @@
     "version": "4.2.15",
     "license": "MIT",
     "scripts": {
+        "migrations": "node src/runMigrations.js",
         "start": "razzle start",
         "build": "razzle build",
         "test": "razzle test --env=jsdom",
@@ -10,6 +11,8 @@
     },
     "dependencies": {
         "express": "^4.17.1",
+        "pg": "^8.8.0",
+        "postgres-migrations": "^5.3.0",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-router-dom": "^5.2.0"

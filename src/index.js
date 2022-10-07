@@ -1,4 +1,7 @@
 import express from "express";
+import runMigrations from "./runMigrations";
+
+runMigrations();
 
 let app = require("./backend/server").default;
 
