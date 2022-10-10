@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cookbook renders 1`] = `
+<div>
+  <main
+    class="cookbook-page"
+  >
+    <h1>
+      Cookbook
+    </h1>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            Apple pie
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Halloumi Hamburgers
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tomato Soup
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders 1`] = `
+<div>
+  <main
+    class="home-page"
+  >
+    <h1>
+      Notebook Cookbook
+    </h1>
+    <div
+      class="links"
+    >
+      <a
+        href="/shopping-list"
+      >
+        <span
+          class="emoji"
+        >
+          🛒
+        </span>
+        <span
+          class="text"
+        >
+          Shopping List
+        </span>
+      </a>
+      <a
+        href="/cookbook"
+      >
+        <span
+          class="emoji"
+        >
+          🍳
+        </span>
+        <span
+          class="text"
+        >
+          Cookbook
+        </span>
+      </a>
+    </div>
+  </main>
+</div>
+`;

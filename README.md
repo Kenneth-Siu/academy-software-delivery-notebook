@@ -1,11 +1,14 @@
-You need node v16.x.x for this. My advice is to install [`nvm`](https://github.com/nvm-sh/nvm). It's a node version manager that will let you switch the node version your terminal is using.
+# Notebook Cookbook
+
+## Zero to Hero
 
 Install the Prettier VS Code extension, ID `esbenp.prettier-vscode`.
 
 Go into settings and turn on `Format on Save`.
+
 You may want to play around with `Auto Save` as well. (I like onFocusChange)
 
-Make a .env.development.local file in the root of this project. It should contain
+Make a file called `.env.development.local` in the root of this project. It should contain
 
 ```
 PGHOST=localhost
@@ -16,4 +19,10 @@ PGPASSWORD=
 ```
 
 You will need to update `PGUSER` and `PGPASSWORD` with the account details for your installation of Postgres.
-You may need to update the others if you changed the default settings at all.
+You may need to update the other properties if you changed the default settings at all.
+
+## Run
+
+`npm run start` starts the development server. It will (mostly) automatically refresh the page as you make changes.
+
+`npm test` starts the test watcher. It will run the tests automatically whenever you make changes.

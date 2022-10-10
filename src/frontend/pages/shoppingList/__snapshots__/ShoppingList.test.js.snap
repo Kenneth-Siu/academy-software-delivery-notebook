@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingList renders 1`] = `
+<div>
+  <main
+    class="shopping-list-page"
+  >
+    <h1>
+      Shopping List
+    </h1>
+  </main>
+</div>
+`;
