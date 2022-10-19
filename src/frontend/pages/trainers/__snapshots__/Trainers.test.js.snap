@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Cookbook renders 1`] = `
+exports[`Trainers page renders 1`] = `
 <div>
   <main
-    class="cookbook-page"
+    class="trainers-page"
   >
     <h1>
-      Cookbook
+      Trainers
     </h1>
     <table>
       <tbody>

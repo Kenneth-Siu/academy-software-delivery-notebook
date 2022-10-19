@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ShoppingList renders 1`] = `
+exports[`SkillsCoaches renders 1`] = `
 <div>
   <main
-    class="shopping-list-page"
+    class="skills-coaches-page"
   >
     <h1>
-      Shopping List
+      Skills Coaches
     </h1>
   </main>
 </div>

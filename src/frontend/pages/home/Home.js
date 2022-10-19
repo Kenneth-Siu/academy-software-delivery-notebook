@@ -5,15 +5,15 @@ import "./Home.scss";
 export default function Home() {
     return (
         <main className="home-page">
-            <h1>Notebook Cookbook</h1>
+            <h1>Academy Software Delivery Notebook</h1>
             <div className="links">
-                <Link to="/shopping-list">
-                    <span className="emoji">🛒</span>
-                    <span className="text">Shopping List</span>
+                <Link to="/skills-coaches">
+                    <span className="emoji">🚌</span>
+                    <span className="text">Skills Coaches</span>
                 </Link>
-                <Link to="/cookbook">
-                    <span className="emoji">🍳</span>
-                    <span className="text">Cookbook</span>
+                <Link to="/trainers">
+                    <span className="emoji">👟</span>
+                    <span className="text">Trainers</span>
                 </Link>
             </div>
         </main>

@@ -1,4 +1,4 @@
-# Notebook Cookbook
+# Academy Software Delivery Notebook
 
 ## Zero to Hero
 
@@ -13,7 +13,7 @@ Make a file called `.env.development.local` in the root of this project. It shou
 ```
 PGHOST=localhost
 PGPORT=5432
-PGDATABASE=NotebookCookbook
+PGDATABASE=AcademySoftwareDeliveryNotebook
 PGUSER=
 PGPASSWORD=
 ```

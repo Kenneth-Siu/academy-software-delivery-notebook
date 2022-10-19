@@ -1,7 +1,7 @@
 import React from "react";
 import { act, waitFor } from "@testing-library/react";
 import renderWithRouter from "../../../shared/testHelpers/renderWithRouter";
-import Cookbook from "./Cookbook";
+import Trainers from "./Trainers";
 
 let fetchMock;
 
@@ -23,14 +23,14 @@ afterAll(() => {
     delete window.fetch;
 });
 
-describe("Cookbook", () => {
+describe("Trainers page", () => {
     test("renders", async () => {
         // Arrange
         let tree;
 
         // Act
         act(() => {
-            tree = renderWithRouter(<Cookbook />);
+            tree = renderWithRouter(<Trainers />);
         });
         await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
 

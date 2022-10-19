@@ -1,23 +1,23 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Home from "./home/Home";
-import ShoppingList from "./shoppingList/ShoppingList";
+import SkillsCoaches from "./skillsCoaches/SkillsCoaches";
 import "./cssreset.css";
 import "./App.scss";
-import Cookbook from "./cookbook/Cookbook";
+import Trainers from "./trainers/Trainers";
 
 const App = () => (
     <>
-        <title>Notebook Cookbook</title>
+        <title>Academy Software Delivery Notebook</title>
         <Switch>
             <Route exact={true} path="/">
                 <Home />
             </Route>
-            <Route exact={true} path="/shopping-list">
-                <ShoppingList />
+            <Route exact={true} path="/skills-coaches">
+                <SkillsCoaches />
             </Route>
-            <Route exact={true} path="/cookbook">
-                <Cookbook />
+            <Route exact={true} path="/trainers">
+                <Trainers />
             </Route>
         </Switch>
     </>

@@ -1,7 +1,7 @@
 {
-    "name": "notebook-cookbook",
+    "name": "academy-software-delivery-notebook",
     "version": "4.2.15",
-    "license": "MIT",
+    "license": "",
     "scripts": {
         "start": "set NODE_OPTIONS=--openssl-legacy-provider & razzle start",
         "build": "set NODE_OPTIONS=--openssl-legacy-provider & razzle build --noninteractive",

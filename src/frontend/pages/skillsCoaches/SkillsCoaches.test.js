@@ -1,10 +1,10 @@
 import React from "react";
 import renderWithRouter from "../../../shared/testHelpers/renderWithRouter";
-import ShoppingList from "./ShoppingList";
+import SkillsCoaches from "./SkillsCoaches";
 
-describe("ShoppingList", () => {
+describe("SkillsCoaches", () => {
     test("renders", () => {
-        const tree = renderWithRouter(<ShoppingList />);
+        const tree = renderWithRouter(<SkillsCoaches />);
         expect(tree.container).toMatchSnapshot();
     });
 });

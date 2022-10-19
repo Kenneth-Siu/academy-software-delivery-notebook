@@ -6,37 +6,37 @@ exports[`Home renders 1`] = `
     class="home-page"
   >
     <h1>
-      Notebook Cookbook
+      Academy Software Delivery Notebook
     </h1>
     <div
       class="links"
     >
       <a
-        href="/shopping-list"
+        href="/skills-coaches"
       >
         <span
           class="emoji"
         >
-          🛒
+          🚌
         </span>
         <span
           class="text"
         >
-          Shopping List
+          Skills Coaches
         </span>
       </a>
       <a
-        href="/cookbook"
+        href="/trainers"
       >
         <span
           class="emoji"
         >
-          🍳
+          👟
         </span>
         <span
           class="text"
         >
-          Cookbook
+          Trainers
         </span>
       </a>
     </div>

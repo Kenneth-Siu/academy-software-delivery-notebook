@@ -1,9 +1,9 @@
 import { Router } from "express";
-import recipeRoutes from "./recipeRoutes.js";
+import trainerRoutes from "./trainerRoutes.js";
 
 const apiRoutes = Router();
 
-apiRoutes.use("/recipes", recipeRoutes);
+apiRoutes.use("/trainers", trainerRoutes);
 
 apiRoutes.use((req, res) => {
     res.sendStatus(404);
